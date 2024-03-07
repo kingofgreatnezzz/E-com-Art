@@ -133,7 +133,6 @@ AUTH_USER_MODEL = "user.MyUser"
 
 AUTHENTICATION_CLASSES = [
     'djoser.backends.jwt.JWTTokenUserAuthentication',
-    'rest_framework.authentication.SessionAuthentication',
 ]
 
 REST_FRAMEWORK = {
